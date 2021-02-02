@@ -1,19 +1,36 @@
-header{
-    padding:30px;
+header {
+    padding: 30px;
 }
-main{
-    width:calc(75% - 60px);
-    float:left;
-    padding:30px;
+
+main {
+    width: calc(75% - 60px);
+    float: left;
+    padding: 30px;
+    color: white;
 }
-aside{
+
+aside {
     width: calc(25% - 60px);
     float: left;
     border-left: none;
-    padding:30px;
+    padding: 30px;
 }
-footer{
-    clear:both;
-    padding:30px;
+
+footer {
+    clear: both;
+    padding: 30px;
     text-align: center;
+}
+
+.test {
+    background-color: grey;
+    border: 2px solid white;
+}
+
+.white-text {
+    color: white;
+}
+
+footer {
+    color: white;
 }
